@@ -1,0 +1,93 @@
+body {
+  background-color: #2F243A;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table-field {
+  width: 7rem;
+  height: 7rem;
+  border: none;
+  border-radius: 2%;
+  cursor: pointer;
+  background-color: #BEBBBB;
+  transition-duration: 0.3s;
+  font-size: 5rem;
+  font-weight: bold;
+
+
+}
+
+.table-field:hover {
+  background-color: #f8eeea;
+}
+
+.full-field-cross, 
+.full-field-cross:hover {
+  background-color: #a8cdc2 ;
+}
+
+.full-field-circle, 
+.full-field-circle:hover {
+  background-color: #e0bebe ;
+}
+
+.play-stopped-field,
+.play-stopped-field:hover {
+  background-color: #848484;
+  cursor: default;
+}
+
+.won-field, 
+.won-field:hover {
+  background-color: rgb(251, 217, 130);
+  cursor: default;
+}
+
+.table {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}
+
+.main-heading {
+  color: rgb(251, 217, 130);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.info-heading {
+  font-size: 1.5rem;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.x-info-heading {
+  color:#a8cdc2 ;
+}
+
+.o-info-heading {
+  color:#e0bebe ;
+}
+
+.again-button {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  padding: 3% 3%;
+  background-color: rgb(251, 217, 130) ;
+  border: none;
+  border-radius: 50%;
+  font-weight: bolder;
+  margin-top: 5%;
+  cursor: pointer;
+  
+
+}
